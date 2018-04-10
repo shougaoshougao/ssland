@@ -84,7 +84,6 @@ if __name__ == "__main__":
         logging.info('Starting HTTP Server on %d', config.HTTP_PORT)
         from core.httpserver import SlowHTTPServer
         server = SlowHTTPServer(wsgi_app=web_application, port=config.HTTP_PORT)
-        server.add_to_loop(main_loop)
     
     # Quota supervisor
     from core.quota_supervisor import QuotaSupervisor
