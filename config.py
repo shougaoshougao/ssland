@@ -4,12 +4,13 @@
 #  Config Module.
 #
 
-DEBUG = True
+DEBUG = False
+# WIZARD_GENERATED = '2018年 04月 10日 星期二 15:23:32 CST'
 
 SITE_NAME = 'SSLand'
 HTTP_PORT = 8000
 
-SECRET_KEY = 'gxj&%ogdyg*%=814tl*gr4^3#m+3(3z0px*8@acs*o$*61q4_+'
+SECRET_KEY = '8cLNhJCHQAlw7oVTKGx42roIK3yc3875bjaALfIdxzE='
 DATABASE_FILENAME = 'db.sqlite3'
 
 # Note: more setting about Django can be configured in `web/settings.py`
